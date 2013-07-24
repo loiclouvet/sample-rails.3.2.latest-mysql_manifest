@@ -5,6 +5,8 @@ development:
             extra_packages: 
                 - atop
                 - chrony
+        configuration:
+            use_asset_pipeline: true
 staging:
     rails: 
         server: 
@@ -28,8 +30,6 @@ production:
             region: us-east-1
             extra_packages: 
                 - chrony
-        configuration:
-            use_asset_pipeline: true
     mysql: 
         shared_server: frontend
     redis: 
