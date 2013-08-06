@@ -6,7 +6,6 @@ development:
                 - atop
                 - chrony
         configuration: 
-            use_asset_pipeline: true
 staging:
     rails: 
         server: 
