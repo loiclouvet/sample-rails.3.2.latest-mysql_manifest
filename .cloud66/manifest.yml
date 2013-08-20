@@ -9,7 +9,7 @@ development:
             use_asset_pipeline: true
     nginx:
         configuration:
-            perfect_forward_secrecy: false            
+            perfect_forward_secrecy: true            
 staging:
     rails: 
         server: 
