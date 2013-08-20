@@ -7,6 +7,9 @@ development:
                 - chrony
         configuration: 
             use_asset_pipeline: true
+    nginx:
+        configuration:
+            secrecy_forward: true            
 staging:
     rails: 
         server: 
