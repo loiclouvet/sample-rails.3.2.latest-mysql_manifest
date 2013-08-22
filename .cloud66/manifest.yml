@@ -6,7 +6,7 @@ development:
                 - atop
                 - chrony
         configuration: 
-            use_asset_pipeline: false
+            use_asset_pipeline: true
     nginx:
         configuration:
             perfect_forward_secrecy: true
