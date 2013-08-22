@@ -6,10 +6,10 @@ development:
                 - atop
                 - chrony
         configuration: 
-            use_asset_pipeline: true
+            use_asset_pipeline: false
     nginx:
         configuration:
-            perfect_forward_secrecy: true            
+            perfect_forward_secrecy: true
 staging:
     rails: 
         server: 
